@@ -9,7 +9,8 @@ InfiniteHorizonsController.Settings = {
 		79347050,
 		1,
 		489056746,
-		749506667
+		749506667,
+		4,
 	},
 }
 
