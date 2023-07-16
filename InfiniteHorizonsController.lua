@@ -1,4 +1,6 @@
-local InfiniteHorizonsController = {
+local InfiniteHorizonsController = {}
+
+InfiniteHorizonsController.Settings = {
 	ShutDown = false,
 	Update = false,
 	RestartAllServers = false,
@@ -10,5 +12,9 @@ local InfiniteHorizonsController = {
 		749506667
 	},
 }
+
+function InfiniteHorizonsController:ReturnSettings()
+    return self.Settings
+end	
 
 return InfiniteHorizonsController
