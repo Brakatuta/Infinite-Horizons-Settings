@@ -17,4 +17,4 @@ function InfiniteHorizonsController:ReturnSettings()
     return self.Settings
 end	
 
-return InfiniteHorizonsController
+InfiniteHorizonsController:ReturnSettings()
