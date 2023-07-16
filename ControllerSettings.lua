@@ -1,9 +1,9 @@
 local InfiniteHorizonsController = {}
 
 InfiniteHorizonsController.Settings = {
-	ShutDown = false,
-	Update = false,
-	RestartAllServers = false,
+	ShutDown = {Reason = "", State = false},
+	Update = {Reason = "", State = false},
+	Reboot = {Reason = "", State = false},
 	Admins = {
 		79347050,
 		964685904
