@@ -3,7 +3,12 @@ local InfiniteHorizonsController = {
 	Update = false,
 	RestartAllServers = false,
 	Owner = 1,
-	Admins = {},
+	Admins = {
+		79347050,
+		1,
+		489056746,
+		749506667
+	},
 }
 
 return InfiniteHorizonsController
