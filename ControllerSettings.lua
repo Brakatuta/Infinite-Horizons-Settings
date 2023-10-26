@@ -2,7 +2,7 @@ local InfiniteHorizonsController = {}
 
 InfiniteHorizonsController.Settings = {
 	ShutDown = {Reason = "The game is currently not playable..", State = false},
-	Update = {Reason = "The game is updating. Please wait..", State = true, WaitTime = 60},
+	Update = {Reason = "The game is updating. Please wait..", State = false, WaitTime = 60},
 	Reboot = {Reason = "The Servers are currently rebooting. Please wait..", State = false, WaitTime = 120},
 	Developers = {
 	3850952944,
